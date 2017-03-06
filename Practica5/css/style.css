@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+}
+aside {
+    font-family: Helvetica;
+    width: 180px;
+    list-style: none;
+    float: left;
+    margin-right: 36px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+aside li{
+    font-family: Helvetica;
+    margin-top: 2px;
+    background: #7f8c8d;
+    padding: 6px;
+    border-radius: 3px;
+    transition: 1s ease all;
+}
+aside li:hover{
+    font-family: Helvetica;
+    border-radius: 3px;
+    padding: 10px 6px;
+}
+aside li a {
+    font-family: Helvetica;
+    color: white;
+    text-decoration: none;
+}
+header{
+    color:#ffffff;
+    font-family: Bebas Neue;
+    font-size: 50px;
+    height: 300px;
+    line-height: 400px;
+    text-align: center;
+    background: url(../public/img/img1.jpg);
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.main{
+    font-family: Helvetica;
+    width: 700px;
+    border: 1px solid black;
+    display: inline-block;
+}
+.main article{
+    font-family: Helvetica;
+    padding: 16px;
+}
+.last-posts{
+    font-family: Helvetica;
+    float: right;
+    border: 1px solid gray;
+    list-style: none;
+    margin-right: 10px;
+    padding: 5px;
+}
+.last-posts li img{
+    font-family: Helvetica;
+    width: 24px;
+    margin-right: 10px;
+}
+.last-posts li{
+    font-family: Helvetica;
+    margin-top: 10px;
+}
+.last-posts li a{
+    font-family: Helvetica;
+    color: #2c3e50;
+}
+.date-post{
+    margin: 8px 0px 3px 0px;
+    font-size: 10px;
+    color: gray;
+}
+footer{
+    font-family: Helvetica;
+    margin-top: 20px;
+    background: #7f8c8d;
+    padding: 15px;
+    color: white;
+}
+footer a {
+  font-family: Helvetica;
+    color: white;
+}
+.main h2{
+  font-family: Helvetica;
+    font-size: 30px;
+    margin: 10px 0px;
+    color: #2c3e50;
+}
+aside h2{
+  font-family: Helvetica;
+    margin: 15px 4px;
+    color: #2c3e50;
+}
